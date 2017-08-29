@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+}
+
+div {
+  border: black solid 1px;
+  /*
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  */
+}
+
+.contentbox {
+  background-color: lightblue;
+  width: 100%;
+}
+
+#header {
+  text-align: center;
+  background-color: lightyellow;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+ul, ol {
+  font-family: sans-serif;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+  border: 5px solid Goldenrod;
+}
+
+div h1 {
+  color: orange;
+}
+
+:not(h1) {
+  background-color: grey;
+}
+
+div.first-child {
+
+}
+
+div.last-child {
+
+}
+
+div.nth-child(3) {
+  
+}
